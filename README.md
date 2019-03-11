@@ -45,3 +45,25 @@ npm run build
 ```
 npm run lint
 ```
+
+### install and work notes
+
+```
+
+json-server --watch db.json
+#above = no delay
+json-server -d 1500 --watch db.json
+#above = 1.5 second delay
+
+npm install --save nprogress nprogress/nprogress.css
+
+
+npm install
+yarn serve
+
+https://router.vuejs.org/guide/advanced/navigation-guards.html#in-component-guards
+https://router.vuejs.org/guide/advanced/navigation-guards.html#per-route-guard
+
+
+
+```
